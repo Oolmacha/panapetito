@@ -1,7 +1,6 @@
 <script setup>
 defineProps ({
     titulo: String
-
 })
 
 
