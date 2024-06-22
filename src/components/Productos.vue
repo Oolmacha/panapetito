@@ -41,13 +41,12 @@ watchEffect (() => {
 .contenedor{
     padding: 3rem;
     margin-bottom: 2rem;
-
 }
 
 .productos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:2rem;
+    gap:2em;
 }
 
 .producto{
@@ -60,8 +59,7 @@ watchEffect (() => {
 }
 
 .titulo{
-    font-size: 1.25px;
-
+    font-size: 1.25rem;
 }
 
 .descripcion{
