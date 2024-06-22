@@ -6,7 +6,7 @@
                 <img class="foto" :src="`/imagenes/${producto.imagen}`" alt="Producto">
                 <div class="informacion">
                     <h3 class="titulo">
-                      {{ producto.producto }}
+                      {{ producto.nombre }}
                     </h3>
                     <p class="descripcion">
                         {{ producto.descripcion }}
@@ -91,5 +91,8 @@ watchEffect (() => {
     }
 
  }
+
+ 
+
 
 </style>
